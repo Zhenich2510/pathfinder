@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ppppp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yrudkivsky/ppppp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yrudkivsky/ppppp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yrudkivsky/ppppp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ppppp">
+				<Option output="/Users/yrudkivsky/ppppp/cmake-build-debug/ppppp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yrudkivsky/ppppp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yrudkivsky/ppppp/inc"/>
+					<Add directory="/Users/yrudkivsky/ppppp/libmx/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ppppp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ppppp/fast">
+				<Option output="/Users/yrudkivsky/ppppp/cmake-build-debug/ppppp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yrudkivsky/ppppp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yrudkivsky/ppppp/inc"/>
+					<Add directory="/Users/yrudkivsky/ppppp/libmx/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ppppp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yrudkivsky/ppppp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yrudkivsky/ppppp/Makefile">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/inc/pathfinder.h">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/islands">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/Makefile">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/inc/libmx.h">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/libmx.a">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_binary_search.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_bubble_sort.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_count_substr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_count_words.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_create_node.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_del_extra_spaces.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_del_strarr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_file_to_str.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_foreach.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_get_char_index.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_get_substr_index.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_hex_to_nbr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_is_odd.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_isalpha.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_isdigit.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_islower.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_isupper.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_itoa.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_list_size.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memccpy.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memchr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memcmp.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memcpy.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memmem.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memmove.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memrchr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_memset.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_nbr_length.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_nbr_to_hex.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_pop_back.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_pop_front.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_pow.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_print_strarr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_print_unicode.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_printchar.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_printerr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_printint.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_printstr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_push_back.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_push_front.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_quicksort.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_realloc.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_replace_substr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_sort_list.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_sqrt.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_str_reverse.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strcat.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strcmp.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strcpy.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strdel.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strdup.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strjoin.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strlen.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strncmp.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strncpy.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strndup.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strnew.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strsplit.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strstr.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_strtrim.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_swap_char.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/obj/mx_toupper.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_binary_search.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_bubble_sort.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_count_substr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_count_words.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_create_node.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_del_extra_spaces.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_del_strarr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_file_to_str.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_foreach.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_get_char_index.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_get_substr_index.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_hex_to_nbr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_is_odd.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_isalpha.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_isdigit.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_islower.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_isupper.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_itoa.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_list_size.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memccpy.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memchr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memcmp.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memcpy.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memmem.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memmove.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memrchr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_memset.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_nbr_length.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_nbr_to_hex.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_pop_back.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_pop_front.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_pow.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_print_strarr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_print_unicode.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_printchar.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_printerr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_printint.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_printstr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_push_back.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_push_front.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_quicksort.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_realloc.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_replace_substr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_sort_list.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_sqrt.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_str_reverse.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strcat.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strcmp.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strcpy.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strdel.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strdup.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strjoin.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strlen.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strncmp.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strncpy.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strndup.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strnew.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strsplit.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strstr.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_strtrim.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_swap_char.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/libmx/src/mx_toupper.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/obj/errors/mx_error1.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/obj/errors/mx_error_file_empty.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/obj/errors/mx_error_file_invalid.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/obj/errors/mx_error_file_invalid_2.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/obj/errors/mx_error_file_or_dir.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/obj/errors/mx_errors_main.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/obj/main/main.o">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/pathfinder">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/errors/mx_error1.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/errors/mx_error_file_empty.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/errors/mx_error_file_invalid.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/errors/mx_error_file_invalid_2.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/errors/mx_error_file_or_dir.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/errors/mx_errors_islands.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/errors/mx_errors_main.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/src/main/main.c">
+			<Option target="ppppp"/>
+		</Unit>
+		<Unit filename="/Users/yrudkivsky/ppppp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
